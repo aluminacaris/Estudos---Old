@@ -1,0 +1,4 @@
+C:\Users\matheus-maibuk\OneDrive\programas\obj\Debug\net8.0\programas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matheus-maibuk\OneDrive\programas\obj\Debug\net8.0\programas.AssemblyInfoInputs.cache
+C:\Users\matheus-maibuk\OneDrive\programas\obj\Debug\net8.0\programas.AssemblyInfo.cs
+C:\Users\matheus-maibuk\OneDrive\programas\obj\Debug\net8.0\programas.csproj.CoreCompileInputs.cache

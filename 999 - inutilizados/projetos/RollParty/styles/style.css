@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* styles.css */
+
+
+:root{
+  --cor-primaria: #0B0110;
+  --cor-secundaria: #2B1336;
+  --cor-terciaria: #E6F9AF;
+  --cor-hover: #;
+
+  --fonte-primaria: 'Krona One', sans-serif ;
+  --fonte-secundaria: 'MontSerrat', sans-serif;
+}
+
+body {
+    margin: 0%;
+    background-color: var(--cor-primaria);
+  }
+
+.cabecalho{
+border-bottom: solid 2px var(--cor-secundaria);
+padding: 11,5px 20px ;
+z-index: 1000;
+}
+
+  .cabecalho-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+    .cabecalho-lista{
+      display: flex;
+      gap: 133px;
+      margin: 0;
+      padding: 0 0 0 7px;
+    }
+
+    .cabecalho-lista-itens{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+  
+
+  .cabecalho_search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--cor-terciaria);
+    border-radius: 20px;
+    overflow: hidden;
+    height: 27px;
+    width: 528px;
+    position: absolute;
+    left: 396px; 
+    right: 506px;      
+  }
+    .search-input {
+      border: none;
+      padding: 5px 20px;
+      font-size: 16px;
+      text-align: start;
+      flex: 1;
+      outline: none;
+      background-color: var(--cor-secundaria);
+      color: var(--cor-terciaria);
+    }
+
+    .search-button {
+      display: flex;
+      justify-content: center;
+      background-color: var(--cor-secundaria);
+      border: none;
+      padding: 6px 20px;
+      color: var(--cor-terciaria);
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 0 0px 0px 0;
+    }
+
+    .search-button:hover {
+      background-color: var(--cor-primaria);
+    }
+
+  .cabecalho-lista2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    gap: 18px;
+  }  
+    .cabecalho-lista-itens2-botao{
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+      text-align: center;
+      padding-bottom: 3px;
+      color: var(--cor-terciaria);
+      background-color: var(--cor-secundaria);
+      border: solid 1px var(--cor-terciaria); 
+      border-radius: 17px;
+      width: 133px;
+      height: 27px;  
+      text-decoration: none;
+      font-size: 19px;
+    }
+
+    .cabecalho-lista-itens2-botao:hover{
+      color: var(--cor-secundaria);
+      background-color: var(--cor-terciaria);
+      border: solid 1px var(--cor-terciaria);
+    }
+
+  .barra-lateral{
+    display: flex;
+    flex-direction: column;
+    gap: 2px; 
+    width: 241px;
+    border-right:solid 2px var(--cor-secundaria);
+    height: 1024px;
+  }
+    
+    .barra-lateral-itens{
+      padding-top: 7px;
+      padding-left: 13px;
+    }
+
+
+@media (max-width: 1024px) {
+  .cabecalho_search-container {
+    position: relative;
+    left: auto;
+    right: auto;
+    margin: 0 auto; /* Centraliza a barra de pesquisa */
+    }
+      
+  .cabecalho-nav {
+    justify-content: center; /* Centraliza todos os itens */
+   }
+  }
+      
+@media (max-width: 768px) {
+  .cabecalho_search-container {
+      width: 100%; /* A barra de pesquisa ocupa 100% da largura */
+      max-width: 400px; /* Limite máximo de largura */
+    }
+      
+  .cabecalho-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+      
+        .cabecalho-lista {
+          gap: 20px; /* Reduz o espaço entre os itens do menu */
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .cabecalho_search-container {
+          width: 100%; /* A barra de pesquisa ocupa 100% da largura */
+          max-width: 300px; /* Limite máximo de largura */
+        }
+      
+        .cabecalho-nav {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .cabecalho-lista {
+          gap: 10px; /* Reduz ainda mais o espaço entre os itens do menu */
+        }
+      }
+      @media (max-width: 480px) {
+        .cabecalho_search-container {
+          width: 100%; /* A barra de pesquisa ocupa 100% da largura */
+          max-width: 300px; /* Limite máximo de largura */
+        }
+      
+        .cabecalho-nav {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .cabecalho-lista {
+          gap: 10px; /* Reduz ainda mais o espaço entre os itens do menu */
+        }
+      
+        .barra-lateral {
+          width: 100%; /* A barra lateral ocupa 100% da largura da tela */
+          height: auto; /* Permite que a altura se ajuste automaticamente */
+          position: relative;
+          margin: 0 auto; /* Centraliza a barra lateral */
+        }
+      
+        .barra-lateral-itens {
+          padding-left: 10px; /* Ajusta o padding para tamanhos menores */
+        }
+      }
+    
+
+

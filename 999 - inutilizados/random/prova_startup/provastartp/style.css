@@ -1,0 +1,100 @@
+.corpo{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0 auto;
+    width: 1200px; 
+    background-color: #151814; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+header{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #262626;
+}
+
+main{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #262626;
+}
+
+.Titulo{
+    color: #ACBFA4;
+}
+
+.Titulo__dicas{
+    color: #ACBFA4;
+}
+
+.navbar{
+    display: flex;
+    gap: 45px;
+    padding: 27px;
+    color: #ACBFA4;
+}
+
+.navbar_links{
+    color: #B48EAE;
+    text-decoration: none;
+}
+
+.navbar_links:hover{
+    color: #262626;
+    background-color: #ACBFA4;
+    background: #E2E8CE;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+.Dicas{
+    display: grid;
+    align-items: center;
+    color: #ACBFA4;
+    padding-left: 30px;
+    padding-right: 200px;
+}
+
+
+.Dicas__links{
+    display: grid;
+    gap: 33px;
+    padding-left: 40px;
+    padding-right: 370px;
+    text-align: center;
+}
+
+.Dicas__links__inside{
+    padding: 5px 5px 5px 5px;
+    background-color: #262626;
+    color: #B48EAE;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+.Dicas__links__inside:hover{
+    color: #262626;
+    background-color: #ACBFA4;
+    background: #E2E8CE;
+    border-radius: 10px;
+}
+
+
+.paragrafos{
+    display: grid;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 200px;
+    gap: 3px;
+    color: #ACBFA4;
+}
+
+
+.imagem{
+    padding-left: 175px;
+}

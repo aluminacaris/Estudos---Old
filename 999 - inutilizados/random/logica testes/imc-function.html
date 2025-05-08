@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function pulalinha() {
+            document.write("<br> <br>");	
+        }
+    
+        function mostra(frase) {
+            document.write(frase);
+            pulalinha();
+        }
+
+        function calculaimc(peso, altura) {
+            return imc = peso / (altura * altura);
+            
+        }
+
+       var imcLU = calculaimc(53, 1.65);
+       var imcAmigo = calculaimc(90, 1.90);
+    
+       mostra(Math.round(imcLU));
+       mostra(Math.round(imcAmigo));
+        
+    </script>
+</body>
+</html>

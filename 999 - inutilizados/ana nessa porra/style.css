@@ -1,0 +1,167 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações de cores e fontes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #191919;
+    color: #FFF05A;
+}
+
+header {
+    background-color: #FF785A;
+    padding: 1em 0;
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191919;
+    padding: 1em 2em;
+}
+
+.navbar h1 {
+    color: #FFF05A;
+    font-size: 1.8em;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+.navbar a {
+    color: #FFF05A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para a seção de conteúdo principal */
+.content {
+    margin-top: 2em;
+    padding: 1em 2em;
+}
+
+.content h2 {
+    color: #FF785A;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.content-item {
+    background-color: #191919;
+    border: 2px solid #FFAA5A;
+    border-radius: 8px;
+    padding: 1em;
+    color: #FFF05A;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+/* Estilo para a seção da bandeira */
+.flag {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.flag h2 {
+    color: #FF785A;
+    margin-bottom: 1em;
+}
+
+.flag-item img {
+    width: 80%;
+    max-width: 400px;
+    border: 3px solid #FFAA5A;
+    border-radius: 8px;
+}
+
+.culture {
+    margin-top: 2em;
+    padding: 1em 2em;
+}
+
+.culture h2 {
+    color: #FF785A;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.cultural-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #191919;
+    border: 2px solid #FFAA5A;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cultural-item img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 1em;
+}
+
+.cultural-item h3 {
+    color: #FFF05A;
+    margin-bottom: 0.5em;
+}
+
+.cultural-item p {
+    color: #FFF05A;
+    line-height: 1.5;
+}
+
+/* Estilo para a seção de curiosidades */
+.curiosities {
+    margin-top: 2em;
+    padding: 1em 2em;
+}
+
+.curiosities h2 {
+    color: #FF785A;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.curiosity-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #191919;
+    border: 2px solid #FFAA5A;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.curiosity-item img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 1em;
+}
+
+.curiosity-item h3 {
+    color: #FFF05A;
+    margin-bottom: 0.5em;
+}
+
+.curiosity-item p {
+    color: #FFF05A;
+    line-height: 1.5;
+}
